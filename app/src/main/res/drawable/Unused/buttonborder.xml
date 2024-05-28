@@ -1,0 +1,12 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Transparent color to allow backgroundTint to show -->
+            <solid android:color="@android:color/transparent" />
+            <!-- Border color and width -->
+            <stroke android:width="3dp" android:color="#000000" />
+            <!-- Optional: Add rounded corners -->
+            <corners android:radius="26dp" />
+        </shape>
+    </item>
+</layer-list>
